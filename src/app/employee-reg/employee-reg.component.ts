@@ -15,9 +15,12 @@ export class EmployeeRegComponent implements OnInit {
   constructor(private service:EmployeeRegService){
     
   }
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
 
-  ngOnInit(){
+  ngOnChange(){
 
   }
  
